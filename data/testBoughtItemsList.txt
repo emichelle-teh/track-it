@@ -1,0 +1,3 @@
+1000.0
+Milk,5.99,FOOD,2020-03-29
+Chicken Dinner,9.99,FOOD,2020-03-29

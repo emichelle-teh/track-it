@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="startingPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="463.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.SetBudgetController">
+   <children>
+      <Label fx:id="prompt" alignment="TOP_CENTER" layoutX="106.0" layoutY="86.0" prefHeight="65.0" prefWidth="252.0" text="Enter your budget here:" textAlignment="CENTER">
+         <font>
+            <Font name="AppleGothic Regular" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="setBudgetOption" layoutX="188.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#moveToExpensePage" text="Set budget" />
+      <TextField fx:id="budgetInput" alignment="CENTER" layoutX="148.0" layoutY="138.0" promptText="Type a number!" />
+   </children>
+</AnchorPane>
